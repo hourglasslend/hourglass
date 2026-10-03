@@ -23,7 +23,19 @@ Fixed-term, fixed-rate USDG loans against tokenized stocks on Robinhood Chain. N
 
 ## Deployments
 
-**Robinhood Chain mainnet (4663):** addresses are published here, on the site and on X at deployment. `app/src/deployments/4663.json` is the address book.
+**Robinhood Chain mainnet (4663)**, live since 4 Oct 2026. Address book: `app/src/deployments/4663.json`.
+
+| Contract | Address |
+|---|---|
+| GLASS (token, Pons GLASS/ETH) | [`0xDdb7AA1F71335337C986771f9adF1f9EC3646BEb`](https://robinhoodchain.blockscout.com/token/0xDdb7AA1F71335337C986771f9adF1f9EC3646BEb) |
+| LoanManager | [`0xE503De0B59c26894178594602cB85E34D515182F`](https://robinhoodchain.blockscout.com/address/0xE503De0B59c26894178594602cB85E34D515182F) |
+| HourglassVault 7D | [`0xA7964B631d70D766d96d31A27117650441381BB9`](https://robinhoodchain.blockscout.com/address/0xA7964B631d70D766d96d31A27117650441381BB9) |
+| HourglassVault 30D | [`0xCFc1E51A677d6950c5B157fbdE6Db48fC3223202`](https://robinhoodchain.blockscout.com/address/0xCFc1E51A677d6950c5B157fbdE6Db48fC3223202) |
+| SafetyModule | [`0x78267387571F054F945f87a5936C72e7Ad57387C`](https://robinhoodchain.blockscout.com/address/0x78267387571F054F945f87a5936C72e7Ad57387C) |
+| FeeSplitter | [`0xD4C9EDB9bf0f0bF6D5014Bb754f7A4A063C7D267`](https://robinhoodchain.blockscout.com/address/0xD4C9EDB9bf0f0bF6D5014Bb754f7A4A063C7D267) |
+| TimelockController (48h) | [`0x305053D7684b95DdB14088269498abE30EC9d867`](https://robinhoodchain.blockscout.com/address/0x305053D7684b95DdB14088269498abE30EC9d867) |
+
+Vault deposit cap at launch: 25,000 USDG each. Ownership moves to the timelock once its 48h delay has passed (the acceptOwnership batch is executed by the keeper).
 
 **Robinhood Chain testnet (46630):** test USDG, GLASS and stocks with public faucets, prices mirrored from mainnet Chainlink by the keeper. Address book: `app/src/deployments/46630.json`.
 

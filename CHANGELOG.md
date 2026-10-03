@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 — 4 Oct 2026
+
+- Robinhood Chain mainnet (4663) deployment: address book `app/src/deployments/4663.json`, mainnet keeper address book `keeper/deployment.mainnet.json`.
+- GLASS: `0xDdb7AA1F71335337C986771f9adF1f9EC3646BEb`.
+
 ## 0.1.0 — 3 Oct 2026
 
 Initial public release.
