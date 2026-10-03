@@ -1,0 +1,39 @@
+{
+  "chainId": 46630,
+  "deployedAt": 1791014857,
+  "usdg": "0x305053D7684b95DdB14088269498abE30EC9d867",
+  "glass": "0xC0AeC4c4118Bbf51D4699486375dfE4796d52a17",
+  "loanManager": "0x40aC092233166a1Dc20196fd7142E6787145E7Cf",
+  "vault7": "0x6D49A7769A672f353d9E3f21A8daDd296652c716",
+  "vault30": "0x4897D59b274D45982C6571e22d688De9dAb8Fcc3",
+  "safetyModule": "0x8C9c43E7c0b5aF02BCe69240FA06Ab223eEcAB46",
+  "feeSplitter": "0x9ff9437871b415937C27638ab25b57400b924b74",
+  "timelock": "0xEe3CDC6929dF4716A39A5347D6986Ee04400A534",
+  "assets": [
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "token": "0xD4C9EDB9bf0f0bF6D5014Bb754f7A4A063C7D267",
+      "feed": "0xE503De0B59c26894178594602cB85E34D515182F"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "token": "0xA7964B631d70D766d96d31A27117650441381BB9",
+      "feed": "0xCFc1E51A677d6950c5B157fbdE6Db48fC3223202"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "token": "0x78267387571F054F945f87a5936C72e7Ad57387C",
+      "feed": "0xf7c8073d71c302049C6205a03aeFD39f9500BC04"
+    },
+    {
+      "symbol": "SGOV",
+      "name": "iShares 0-3M Treasury",
+      "token": "0x888c21c56695808E27D33490df445DFC6F15A407",
+      "feed": "0x1D4574D2cD113Ffef884108E5075c9c0d63CabbF"
+    }
+  ],
+  "fromBlock": 128034936
+}

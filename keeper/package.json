@@ -1,0 +1,9 @@
+{
+  "name": "hourglass-keeper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node index.mjs" },
+  "dependencies": { "viem": "^2.56.8" }
+}

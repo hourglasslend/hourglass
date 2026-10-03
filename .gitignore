@@ -1,0 +1,19 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+
+# build output
+node_modules/
+.next/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# deploy inputs (local only)
+contracts/*-addresses.txt
+
+.DS_Store

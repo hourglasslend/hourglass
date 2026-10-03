@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+# anvil's well-known PUBLIC development key (Foundry test account #0), used only against a local chain
+[[allowlists]]
+description = "anvil public dev key"
+regexes = [
+  '''ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80''',
+]
